@@ -1,8 +1,8 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    min-width: 400px;
+    max-width: 302px;
 }
 
 input {
@@ -10,9 +10,15 @@ input {
     padding: 10px;
     box-sizing: border-box;
     border: 1px solid #5f9341;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
-
+label {
+    font-weight: 900;
+    color: #5f9341;
+    text-decoration: underline;
+    padding-top: 20px;
+}
 button {
     background: #5f9341;
     color: white;
